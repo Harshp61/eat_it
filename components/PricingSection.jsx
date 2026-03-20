@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import { Check } from "lucide-react";
-import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
+import { SignInButton, useAuth } from "@clerk/nextjs";
 import { CheckoutButton } from "@clerk/nextjs/experimental";
 import { Button } from "@/components/ui/button";
 import {
@@ -15,6 +16,8 @@ import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 
 export default function PricingSection({ subscriptionTier = "free" }) {
+  const { userId } = useAuth();
+
   return (
     <div className="max-w-6xl mx-auto">
       <div className="mb-16">
@@ -106,7 +109,7 @@ export default function PricingSection({ subscriptionTier = "free" }) {
           </CardContent>
 
           <CardFooter>
-            <SignedIn>
+            {userId ? (
               <CheckoutButton
                 planId="cplan_37y5uChZ9uYauQyTlDkXDh997ht"
                 planPeriod="month"
@@ -128,14 +131,13 @@ export default function PricingSection({ subscriptionTier = "free" }) {
                   {subscriptionTier === "pro" ? "Subscribed" : "Subscribe Now"}
                 </Button>
               </CheckoutButton>
-            </SignedIn>
-            <SignedOut>
+            ) : (
               <SignInButton mode="modal">
                 <Button variant="primary" className="w-full">
                   Login to Subscribe
                 </Button>
               </SignInButton>
-            </SignedOut>
+            )}
           </CardFooter>
         </Card>
       </div>

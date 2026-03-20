@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "./ui/button";
 import { Cookie, Refrigerator, Sparkles } from "lucide-react";
 import Link from "next/link";
-import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
+import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import HowToCookModal from "./HowToCookModal";
 import PricingModal from "./PricingModal";
 import Image from "next/image";
@@ -52,9 +52,9 @@ export default async function Header() {
         <div className="flex items-center space-x-4">
           <HowToCookModal />
 
-          <SignedIn>
-            {/* Pricing Modal with Built-in Trigger */}
-            {user && (
+          {user ? (
+            <>
+              {/* Pricing Modal with Built-in Trigger */}
               <PricingModal subscriptionTier={user.subscriptionTier}>
                 <Badge
                   variant="outline"
@@ -76,26 +76,26 @@ export default async function Header() {
                   </span>
                 </Badge>
               </PricingModal>
-            )}
 
-            <UserDropdown />
-          </SignedIn>
-
-          <SignedOut>
-            <SignInButton mode="modal">
-              <Button
-                variant="ghost"
-                className="text-stone-600 hover:text-orange-600 hover:bg-orange-50 font-medium"
-              >
-                Sign In
-              </Button>
-            </SignInButton>
-            <SignUpButton mode="modal">
-              <Button variant="primary" className="rounded-full px-6">
-                Get Started
-              </Button>
-            </SignUpButton>
-          </SignedOut>
+              <UserDropdown />
+            </>
+          ) : (
+            <>
+              <SignInButton mode="modal">
+                <Button
+                  variant="ghost"
+                  className="text-stone-600 hover:text-orange-600 hover:bg-orange-50 font-medium"
+                >
+                  Sign In
+                </Button>
+              </SignInButton>
+              <SignUpButton mode="modal">
+                <Button variant="primary" className="rounded-full px-6">
+                  Get Started
+                </Button>
+              </SignUpButton>
+            </>
+          )}
         </div>
       </nav>
     </header>
