@@ -31,7 +31,7 @@ import Image from "next/image";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import { RecipePDF } from "@/components/RecipePDF";
 import { ClockLoader } from "react-spinners";
-import ProLockedSection from "@/components/ProLockedSection";
+import ProLockedSection from "@/components/pro-locked-section";
 
 function RecipeContent() {
   const searchParams = useSearchParams();
