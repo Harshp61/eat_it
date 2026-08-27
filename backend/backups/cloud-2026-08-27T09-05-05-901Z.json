@@ -1,0 +1,414 @@
+{
+  "source": "https://shining-duck-104eb8fea3.strapiapp.com",
+  "exportedAt": "2026-08-27T09:05:03.838Z",
+  "collections": {
+    "users": {
+      "data": [
+        {
+          "id": 1,
+          "documentId": "s6k7tthtavz4acdb0ykoo0vr",
+          "username": "padhayi6",
+          "email": "padhayi6@gmail.com",
+          "provider": "local",
+          "confirmed": true,
+          "blocked": false,
+          "clerkId": "user_3BFyGRVMgtphwTFR1kOIwbCOCwH",
+          "firstName": "padhayi",
+          "lastName": "",
+          "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18zQkZ5R1R3eVJibDJtSlVlUklSemlpTklKdVAifQ",
+          "subscriptionTier": "free",
+          "createdAt": "2026-08-22T09:59:02.215Z",
+          "updatedAt": "2026-08-22T09:59:02.215Z",
+          "publishedAt": "2026-08-22T09:59:02.223Z",
+          "role": {
+            "id": 1,
+            "documentId": "a2723q7ps4wt9zxhsa2dh5vx",
+            "name": "Authenticated",
+            "description": "Default role given to authenticated user.",
+            "type": "authenticated",
+            "createdAt": "2026-03-21T15:09:35.747Z",
+            "updatedAt": "2026-03-21T15:09:35.747Z",
+            "publishedAt": "2026-03-21T15:09:35.748Z"
+          },
+          "recipes": [
+            {
+              "id": 1,
+              "documentId": "u2rxpjsmeccgby30wif333kk",
+              "title": "Dulce De Leche",
+              "description": null,
+              "cuisine": "brazilian",
+              "category": "dessert",
+              "ingredients": [
+                {
+                  "item": "Whole Milk",
+                  "amount": "1 quart (4 cups)",
+                  "category": "Dairy"
+                },
+                {
+                  "item": "Granulated Sugar",
+                  "amount": "1 cup",
+                  "category": "Other"
+                },
+                {
+                  "item": "Vanilla Extract",
+                  "amount": "1 teaspoon",
+                  "category": "Spice"
+                },
+                {
+                  "item": "Baking Soda",
+                  "amount": "1/4 teaspoon",
+                  "category": "Other"
+                }
+              ],
+              "instructions": [
+                {
+                  "tip": "Using a heavy-bottomed pot will help distribute heat evenly and prevent scorching.",
+                  "step": 1,
+                  "title": "Combine Ingredients",
+                  "instruction": "In a large, heavy-bottomed saucepan (at least 4-quart capacity), combine the whole milk and granulated sugar. Stir well to dissolve the sugar."
+                },
+                {
+                  "tip": "Watch the mixture carefully as it heats to prevent boil-overs.",
+                  "step": 2,
+                  "title": "Heat Milk Mixture",
+                  "instruction": "Place the saucepan over medium heat. Stir occasionally until the mixture comes to a gentle simmer. Do not let it boil vigorously."
+                },
+                {
+                  "tip": "Baking soda helps to prevent curdling and promotes even caramelization.",
+                  "step": 3,
+                  "title": "Add Vanilla and Baking Soda",
+                  "instruction": "Once simmering, stir in the vanilla extract and baking soda. The baking soda will cause a slight foam; stir until it subsides."
+                },
+                {
+                  "tip": "Frequent stirring is crucial to prevent the bottom from scorching and to ensure uniform caramelization.",
+                  "step": 4,
+                  "title": "Simmer and Reduce",
+                  "instruction": "Reduce the heat to low, so the mixture is just barely simmering. Cook, uncovered, stirring frequently (every 5-10 minutes), for approximately 2 to 3 hours."
+                },
+                {
+                  "tip": "The dulce de leche will continue to thicken as it cools, so remove it from the heat when it's slightly thinner than you want the final product to be.",
+                  "step": 5,
+                  "title": "Monitor Color and Thickness",
+                  "instruction": "As the dulce de leche cooks, it will gradually thicken and turn a golden amber color. Continue simmering until it reaches your desired consistency and a rich caramel hue."
+                },
+                {
+                  "tip": "You can also tilt the pot; the mixture should coat the back of a spoon and leave a trail.",
+                  "step": 6,
+                  "title": "Test Consistency",
+                  "instruction": "To test for doneness, drop a small amount onto a chilled plate. If it holds its shape and doesn't spread too quickly, it's ready."
+                },
+                {
+                  "tip": "This initial cooling prevents thermal shock if you plan to transfer it to a container.",
+                  "step": 7,
+                  "title": "Cool Down",
+                  "instruction": "Remove the saucepan from the heat. Allow the dulce de leche to cool in the saucepan for about 15-20 minutes, stirring occasionally."
+                },
+                {
+                  "tip": "Ensure the container is clean and dry to prevent spoilage.",
+                  "step": 8,
+                  "title": "Transfer and Store",
+                  "instruction": "Carefully pour the warm dulce de leche into a heatproof jar or container. Let it cool completely at room temperature before covering and refrigerating."
+                }
+              ],
+              "imageUrl": "https://images.unsplash.com/photo-1611516081814-55d97d5a7488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDE4NzZ8MHwxfHNlYXJjaHwxfHxEdWxjZSUyMERlJTIwTGVjaGV8ZW58MHwwfHx8MTc4NzM5Mjc4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "isPublic": true,
+              "prepTime": 5,
+              "cookTime": 180,
+              "servings": 12,
+              "nutrition": {
+                "fat": "3-5 grams",
+                "carbs": "20-25 grams",
+                "protein": "1-2 grams",
+                "calories": "Approximately 120-150 per 2 tablespoon serving (estimates may vary based on final reduction)"
+              },
+              "tips": [
+                "Always use a large, heavy-bottomed pot to prevent scorching and boil-overs.",
+                "Stir frequently to ensure even cooking and to prevent the bottom from sticking.",
+                "Be patient! Dulce de leche requires low and slow cooking for the best results.",
+                "The color will deepen as it cools."
+              ],
+              "substitutions": [
+                {
+                  "original": "Whole Milk",
+                  "alternatives": [
+                    "2% Milk (will result in a less rich dulce de leche)",
+                    "Half-and-half (will be richer and cook faster)"
+                  ]
+                },
+                {
+                  "original": "Granulated Sugar",
+                  "alternatives": [
+                    "Brown Sugar (will add a slightly deeper, molasses-like flavor)"
+                  ]
+                }
+              ],
+              "createdAt": "2026-08-22T09:59:44.422Z",
+              "updatedAt": "2026-08-22T09:59:44.422Z",
+              "publishedAt": null
+            },
+            {
+              "id": 2,
+              "documentId": "u2rxpjsmeccgby30wif333kk",
+              "title": "Dulce De Leche",
+              "description": null,
+              "cuisine": "brazilian",
+              "category": "dessert",
+              "ingredients": [
+                {
+                  "item": "Whole Milk",
+                  "amount": "1 quart (4 cups)",
+                  "category": "Dairy"
+                },
+                {
+                  "item": "Granulated Sugar",
+                  "amount": "1 cup",
+                  "category": "Other"
+                },
+                {
+                  "item": "Vanilla Extract",
+                  "amount": "1 teaspoon",
+                  "category": "Spice"
+                },
+                {
+                  "item": "Baking Soda",
+                  "amount": "1/4 teaspoon",
+                  "category": "Other"
+                }
+              ],
+              "instructions": [
+                {
+                  "tip": "Using a heavy-bottomed pot will help distribute heat evenly and prevent scorching.",
+                  "step": 1,
+                  "title": "Combine Ingredients",
+                  "instruction": "In a large, heavy-bottomed saucepan (at least 4-quart capacity), combine the whole milk and granulated sugar. Stir well to dissolve the sugar."
+                },
+                {
+                  "tip": "Watch the mixture carefully as it heats to prevent boil-overs.",
+                  "step": 2,
+                  "title": "Heat Milk Mixture",
+                  "instruction": "Place the saucepan over medium heat. Stir occasionally until the mixture comes to a gentle simmer. Do not let it boil vigorously."
+                },
+                {
+                  "tip": "Baking soda helps to prevent curdling and promotes even caramelization.",
+                  "step": 3,
+                  "title": "Add Vanilla and Baking Soda",
+                  "instruction": "Once simmering, stir in the vanilla extract and baking soda. The baking soda will cause a slight foam; stir until it subsides."
+                },
+                {
+                  "tip": "Frequent stirring is crucial to prevent the bottom from scorching and to ensure uniform caramelization.",
+                  "step": 4,
+                  "title": "Simmer and Reduce",
+                  "instruction": "Reduce the heat to low, so the mixture is just barely simmering. Cook, uncovered, stirring frequently (every 5-10 minutes), for approximately 2 to 3 hours."
+                },
+                {
+                  "tip": "The dulce de leche will continue to thicken as it cools, so remove it from the heat when it's slightly thinner than you want the final product to be.",
+                  "step": 5,
+                  "title": "Monitor Color and Thickness",
+                  "instruction": "As the dulce de leche cooks, it will gradually thicken and turn a golden amber color. Continue simmering until it reaches your desired consistency and a rich caramel hue."
+                },
+                {
+                  "tip": "You can also tilt the pot; the mixture should coat the back of a spoon and leave a trail.",
+                  "step": 6,
+                  "title": "Test Consistency",
+                  "instruction": "To test for doneness, drop a small amount onto a chilled plate. If it holds its shape and doesn't spread too quickly, it's ready."
+                },
+                {
+                  "tip": "This initial cooling prevents thermal shock if you plan to transfer it to a container.",
+                  "step": 7,
+                  "title": "Cool Down",
+                  "instruction": "Remove the saucepan from the heat. Allow the dulce de leche to cool in the saucepan for about 15-20 minutes, stirring occasionally."
+                },
+                {
+                  "tip": "Ensure the container is clean and dry to prevent spoilage.",
+                  "step": 8,
+                  "title": "Transfer and Store",
+                  "instruction": "Carefully pour the warm dulce de leche into a heatproof jar or container. Let it cool completely at room temperature before covering and refrigerating."
+                }
+              ],
+              "imageUrl": "https://images.unsplash.com/photo-1611516081814-55d97d5a7488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDE4NzZ8MHwxfHNlYXJjaHwxfHxEdWxjZSUyMERlJTIwTGVjaGV8ZW58MHwwfHx8MTc4NzM5Mjc4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+              "isPublic": true,
+              "prepTime": 5,
+              "cookTime": 180,
+              "servings": 12,
+              "nutrition": {
+                "fat": "3-5 grams",
+                "carbs": "20-25 grams",
+                "protein": "1-2 grams",
+                "calories": "Approximately 120-150 per 2 tablespoon serving (estimates may vary based on final reduction)"
+              },
+              "tips": [
+                "Always use a large, heavy-bottomed pot to prevent scorching and boil-overs.",
+                "Stir frequently to ensure even cooking and to prevent the bottom from sticking.",
+                "Be patient! Dulce de leche requires low and slow cooking for the best results.",
+                "The color will deepen as it cools."
+              ],
+              "substitutions": [
+                {
+                  "original": "Whole Milk",
+                  "alternatives": [
+                    "2% Milk (will result in a less rich dulce de leche)",
+                    "Half-and-half (will be richer and cook faster)"
+                  ]
+                },
+                {
+                  "original": "Granulated Sugar",
+                  "alternatives": [
+                    "Brown Sugar (will add a slightly deeper, molasses-like flavor)"
+                  ]
+                }
+              ],
+              "createdAt": "2026-08-22T09:59:44.422Z",
+              "updatedAt": "2026-08-22T09:59:44.422Z",
+              "publishedAt": "2026-08-22T09:59:44.495Z"
+            }
+          ],
+          "pantry_items": [],
+          "saved_recipes": []
+        }
+      ]
+    },
+    "recipes": {
+      "data": [
+        {
+          "id": 2,
+          "documentId": "u2rxpjsmeccgby30wif333kk",
+          "title": "Dulce De Leche",
+          "description": null,
+          "cuisine": "brazilian",
+          "category": "dessert",
+          "ingredients": [
+            {
+              "item": "Whole Milk",
+              "amount": "1 quart (4 cups)",
+              "category": "Dairy"
+            },
+            {
+              "item": "Granulated Sugar",
+              "amount": "1 cup",
+              "category": "Other"
+            },
+            {
+              "item": "Vanilla Extract",
+              "amount": "1 teaspoon",
+              "category": "Spice"
+            },
+            {
+              "item": "Baking Soda",
+              "amount": "1/4 teaspoon",
+              "category": "Other"
+            }
+          ],
+          "instructions": [
+            {
+              "tip": "Using a heavy-bottomed pot will help distribute heat evenly and prevent scorching.",
+              "step": 1,
+              "title": "Combine Ingredients",
+              "instruction": "In a large, heavy-bottomed saucepan (at least 4-quart capacity), combine the whole milk and granulated sugar. Stir well to dissolve the sugar."
+            },
+            {
+              "tip": "Watch the mixture carefully as it heats to prevent boil-overs.",
+              "step": 2,
+              "title": "Heat Milk Mixture",
+              "instruction": "Place the saucepan over medium heat. Stir occasionally until the mixture comes to a gentle simmer. Do not let it boil vigorously."
+            },
+            {
+              "tip": "Baking soda helps to prevent curdling and promotes even caramelization.",
+              "step": 3,
+              "title": "Add Vanilla and Baking Soda",
+              "instruction": "Once simmering, stir in the vanilla extract and baking soda. The baking soda will cause a slight foam; stir until it subsides."
+            },
+            {
+              "tip": "Frequent stirring is crucial to prevent the bottom from scorching and to ensure uniform caramelization.",
+              "step": 4,
+              "title": "Simmer and Reduce",
+              "instruction": "Reduce the heat to low, so the mixture is just barely simmering. Cook, uncovered, stirring frequently (every 5-10 minutes), for approximately 2 to 3 hours."
+            },
+            {
+              "tip": "The dulce de leche will continue to thicken as it cools, so remove it from the heat when it's slightly thinner than you want the final product to be.",
+              "step": 5,
+              "title": "Monitor Color and Thickness",
+              "instruction": "As the dulce de leche cooks, it will gradually thicken and turn a golden amber color. Continue simmering until it reaches your desired consistency and a rich caramel hue."
+            },
+            {
+              "tip": "You can also tilt the pot; the mixture should coat the back of a spoon and leave a trail.",
+              "step": 6,
+              "title": "Test Consistency",
+              "instruction": "To test for doneness, drop a small amount onto a chilled plate. If it holds its shape and doesn't spread too quickly, it's ready."
+            },
+            {
+              "tip": "This initial cooling prevents thermal shock if you plan to transfer it to a container.",
+              "step": 7,
+              "title": "Cool Down",
+              "instruction": "Remove the saucepan from the heat. Allow the dulce de leche to cool in the saucepan for about 15-20 minutes, stirring occasionally."
+            },
+            {
+              "tip": "Ensure the container is clean and dry to prevent spoilage.",
+              "step": 8,
+              "title": "Transfer and Store",
+              "instruction": "Carefully pour the warm dulce de leche into a heatproof jar or container. Let it cool completely at room temperature before covering and refrigerating."
+            }
+          ],
+          "imageUrl": "https://images.unsplash.com/photo-1611516081814-55d97d5a7488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDE4NzZ8MHwxfHNlYXJjaHwxfHxEdWxjZSUyMERlJTIwTGVjaGV8ZW58MHwwfHx8MTc4NzM5Mjc4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "isPublic": true,
+          "prepTime": 5,
+          "cookTime": 180,
+          "servings": 12,
+          "nutrition": {
+            "fat": "3-5 grams",
+            "carbs": "20-25 grams",
+            "protein": "1-2 grams",
+            "calories": "Approximately 120-150 per 2 tablespoon serving (estimates may vary based on final reduction)"
+          },
+          "tips": [
+            "Always use a large, heavy-bottomed pot to prevent scorching and boil-overs.",
+            "Stir frequently to ensure even cooking and to prevent the bottom from sticking.",
+            "Be patient! Dulce de leche requires low and slow cooking for the best results.",
+            "The color will deepen as it cools."
+          ],
+          "substitutions": [
+            {
+              "original": "Whole Milk",
+              "alternatives": [
+                "2% Milk (will result in a less rich dulce de leche)",
+                "Half-and-half (will be richer and cook faster)"
+              ]
+            },
+            {
+              "original": "Granulated Sugar",
+              "alternatives": [
+                "Brown Sugar (will add a slightly deeper, molasses-like flavor)"
+              ]
+            }
+          ],
+          "createdAt": "2026-08-22T09:59:44.422Z",
+          "updatedAt": "2026-08-22T09:59:44.422Z",
+          "publishedAt": "2026-08-22T09:59:44.495Z",
+          "author": {
+            "id": 1,
+            "documentId": "s6k7tthtavz4acdb0ykoo0vr",
+            "username": "padhayi6",
+            "email": "padhayi6@gmail.com",
+            "provider": "local",
+            "confirmed": true,
+            "blocked": false,
+            "clerkId": "user_3BFyGRVMgtphwTFR1kOIwbCOCwH",
+            "firstName": "padhayi",
+            "lastName": "",
+            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18zQkZ5R1R3eVJibDJtSlVlUklSemlpTklKdVAifQ",
+            "subscriptionTier": "free",
+            "createdAt": "2026-08-22T09:59:02.215Z",
+            "updatedAt": "2026-08-22T09:59:02.215Z",
+            "publishedAt": "2026-08-22T09:59:02.223Z"
+          },
+          "saved_recipes": []
+        }
+      ]
+    },
+    "pantryItems": {
+      "data": []
+    },
+    "savedRecipes": {
+      "data": []
+    }
+  }
+}
